@@ -1,0 +1,19 @@
+/* ============================================================
+   AWS Student Builder Group — color scheme (Orange)
+   The whole template re-skins from these two variables.
+   AWS brand: Smile Orange #FF9900 · Squid Ink #232F3E
+   ============================================================ */
+:root {
+  --primary-color: #FF9900;          /* AWS smile orange */
+  --primary-color-rgb: 255, 153, 0;
+  --secondary-color: #EC7211;        /* AWS console deep orange */
+  --secondary-color-rgb: 236, 114, 17;
+}
+
+/* AWS "Squid Ink" dark surfaces (override template navy) */
+:root {
+  --bg-dark-1: #161E2D;   /* page background */
+  --bg-dark-2: #232F3E;   /* card / panel    */
+  --bg-dark-3: #1B2430;   /* alt surface     */
+  --bg-dark-1-rgb: 22, 30, 45;
+}

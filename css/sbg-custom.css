@@ -1,0 +1,16 @@
+/* ============================================================
+   AWS Student Builder Group NUST — custom overrides
+   Loaded after style.css so these rules win.
+   ============================================================ */
+
+/* ---- Larger header + footer logo ---- */
+:root{
+  --logo-width: 280px;
+  --logo-footer-width: 240px;
+}
+#logo img{ max-height: 90px; width: auto; }
+header.smaller #logo img,
+header.clone-nav #logo img{ max-height: 70px; }
+
+/* keep the footer heart inline and on-brand */
+.subfooter .fa-heart{ margin: 0 2px; }
